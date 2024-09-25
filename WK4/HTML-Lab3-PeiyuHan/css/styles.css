@@ -1,0 +1,82 @@
+
+
+body{
+    font:normal 1.1em/1.75 Arial, Helvetica, sans-serif;
+    margin:0;
+    color:darkolivegreen;
+}
+
+h1 {
+    color:olivedrab;
+    font-size: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    font-weight: bold;
+    font-style: italic;
+    margin:0;
+    letter-spacing: 1.25px;
+}
+
+main {
+    background-color:gainsboro;
+    padding-left: 1.25em;
+    padding-top: 1.5em;
+}
+main a:link {
+    color:forestgreen;
+}
+main a:visited {
+    color:blueviolet;
+}
+main a:hover {
+    color:orange;
+}
+main a:active {
+    color:green;
+}
+
+aside {
+    line-height:0.5;
+    font-size:small;
+    margin-top: 4em;
+
+}
+#comments {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:1.25;
+    font-size:medium;
+    padding-top:5em;
+    padding-bottom: 5em;
+}
+
+
+#footer {
+    margin:0.5em;
+    background-color: palegoldenrod;
+    font-size: 0.6em;
+    padding: 0.8em;
+    border: 5px solid burlywood;
+    border-radius: 1em;
+    line-height: 1.5;
+}
+
+#footer h2{
+    font-weight: bold;
+}
+#footer p{
+    font-style: italic;
+}
+
+button {
+  background-color:palevioletred;
+  color:#fff;
+  padding: 0.5em 0.8em;
+  border-radius:5px;
+  display:inline-block;
+}
+
+button:hover {
+    background-color: tomato;
+    color: antiquewhite;
+}
+
