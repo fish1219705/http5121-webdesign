@@ -1,0 +1,53 @@
+.flex-container-row,
+.flex-container-column,
+.flex-item {
+  border:1px solid #000;
+}
+.flex-container-row, .flex-container-column {
+  background-color:#c498ff; /* so flex container is easily visible */
+}
+
+.flex-container-row {
+  padding:1em;
+  display:flex; 
+  flex-direction:row;
+  flex-wrap:wrap; 
+  flex-flow:row wrap;
+  /*justify-content:space-between; 
+  align-items:center; 
+  gap:20px; 
+  height: 300px;*/
+}
+
+.flex-container-column{
+  padding: 1em;
+  display: flex; /* set as a flex container */
+  flex-direction: column;
+  justify-content:flex-start;
+}
+
+.flex-item {
+  background-color:#fdd489; /* so flex item is easily visible */
+  /* flex-grow:1; */
+  /* flex-shrink:1; */
+  /* flex-basis:0; */
+}
+
+.flex-item:nth-child(3) {
+  order:1;
+}
+/* LAYOUT EXAMPLE */
+#header {
+  display: flex; /* so #site-name and #main-navigation will display in a row. */
+  align-items: center;
+  justify-content: space-between;
+}
+#main-navigation .menu {
+  display: flex;
+  list-style: none;
+  gap:4em;
+}
+.layout-wrapper{
+  display: flex;
+  gap:1em;
+}
